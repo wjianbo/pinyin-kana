@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>pinyin-kana</title>
+  <link href="app.css" rel="stylesheet"></head>
+  <body>
+    <div id="not-support" class="hidden">
+      <strong>:(</strong>
+      <p>
+        The browser does not support Intl or zh-CN language.
+      </p>
+    </div>
+    <div id="title">
+      <h3>pinyin-kana</h3>
+      <p>外国人名前の読み方（ピンイン・フリカナ）を調べる</p>
+    </div>
+    <div id="main">
+      <textarea id="hanzi" style="text-align:center" autofocus></textarea>
+      <pre id="pinyin"></pre>
+      <pre id="kana"></pre>
+     </div>
+    <script type="text/javascript" src="browser.js"></script>
+  <script type="text/javascript" src="app.js"></script></body>
+</html>
