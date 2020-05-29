@@ -188,6 +188,8 @@ function onChange() {
   }
   if (country === '0') {
     $kanji.textContent = kanji
+  } else {
+    $kanji.textContent = ''
   }
   $pinyin.textContent = pinyin;
   $kana.textContent = kana;
